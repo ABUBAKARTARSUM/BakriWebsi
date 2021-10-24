@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Nunito&display=swap');
+body h2{
+  text-shadow:2px 2px 3px rgb(153, 153, 153) ;
+}
+p.sosial i {
+    background: #dc3545;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+h2 {
+    text-transform: uppercase;
+}
+section {
+    padding-top:5rem; 
+}
+hr {
+    border: 1px solid #dc3545;
+}
+section.jumbotron{
+    padding-top: 4rem;
+}
+.tombol {
+    border-radius: 2px;
+}
+/*--------------- Style for lightbox gallery item---------- */
+img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+  section#gallery img:hover {
+    filter: contrast(40%);
+    transition: 0.3s ease;
+  }
+  .gallery {
+    border-radius: 12px;
+  }
+  .gallery img {
+    background-color: var(--bg-gallery-img);
+    width: 100%;
+    cursor: pointer;
+  }
+  #gallery-modal .modal-img {
+    width: 100%;
+  }
+section#freelance {
+  font-family: 'Arvo', sans-serif;
+}
+input.form-control {
+  border-radius: 8px;
+}
+.tombol-radius {
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
