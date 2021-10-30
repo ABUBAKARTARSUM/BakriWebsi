@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <!-- Link To My CSS File / Cascading Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Belajar HTML</title>
+    <style>
+      img {
+        border-left: 5px solid #dc3545;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-danger fw-bold" href="#">bakriweb</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link linkBar" aria-current="page" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link linkBar" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link linkBar" href="index.html#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link linkBar" href="index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link linkBar" href="index.html#contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Belajar Web
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="belajarHtml.html">HTML</a></li>
+                <li><a class="dropdown-item" href="belajarCSS.html">CSS</a></li>
+                <li><a class="dropdown-item" href="belajarJS.html">JavaScript</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar End -->
+    <!-- Section Blog Start -->
+    <section id="belajarHtml">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col">
+            <h2 class="fw-bold text-capitalize">Pengenalan Apa itu <span class="text-danger">HTML ?</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mt-3">
+            <img src="image/pengenalan-apa-itu-html.png" alt="pengenalan-apa-itu-html" class="img-fluid">
+            <p>HTML adalah singkatan dari Hypertext Markup Language merupakan bahasa yang digunakan untuk membuat struktur website, ibaratnya seperti ini jika kalian ingin membuat suatu rumah yang pertama di lakukan adalah membuat pondasi atau bangunannya kan? Nah, HTML juga demikin fungsi nya adalah membuat pondasi atau struktur dari Website.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="text-capitalize fw-bold">format penulisan <span class="text-danger">HTML</span> </h2>
+            <img src="image/code-format-html.png" alt="code-format-html" class="img-fluid">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-capitalize">untuk membuat suatu HTML standar digunakan tag html, head, dan body beserta tag pembuka dan penutupnya  masing - masing , susunan tag - tag tersebut mmebentuk dokumen HTML.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="text-capitalize fw-bold">memberikan informasi dokumen <span class="text-danger">HTML</span> pada head</h2>
+            <img src="image/memberikan informasi dokumen html.png" alt="memberikan informasi dokumen html" class="img-fluid">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="mt-2 text-capitalize"> <span class="fw-bold">Apa fungsi head dalam HTML ?</span> Tag head tugasnya adalah memberikan informasi tentang dokumen, maksudnya didalam tag head kita bisa menambahkan tag- tag yang biasanya digunakan untuk memberikan informasi berupa penulis judul dokumen contohnya tag title, kata kunci pada dokumen, tag link untuk menghubungkan ke file lain dan masih banyak lagi informasi yang bisa di tambahkan pada tag ini. </p>
+            <p class="mt-2 text-capitalize"><span class="fw-bold">apa fungsi dari tag meta dalam HTML ?</span> Elemen meta adalah elemen atau tag dalam bahasa pemrograman HTML atau XHTML yang berfungsi sebagai pemberi informasi metadata dari sebuah halaman web. Elemen meta ini harus diletakkan pada bagian “head” dalam HTML tersebut.</p>
+            <p class="mt-2 text-capitalize"><span class="fw-bold">apa fungsi dari atribute "charset" ?</span> Atribut charset pada meta tag digunakan untuk memberi tahu web browser dengan karakter set apa halaman web akan ditampilkan. Biasanya atribut charset ini akan berisi nilai utf-8, utf-8 adalah singkatan dari <em>Uniform Transform Code-8</em> nilai ini merupakan nilai untuk HTML 5 / versi terbaru.</p>
+            <p class="mt-2 text-capitalize"><span class="fw-bold">Apa yang di maksud dari tag title dan apa fungsinya ?</span> Title tag adalah tag untuk membuat sebuah judul dari sebuah halaman.Lalu apa fungsinya, nah fungsinya adalah sebagai backlink yang akan menghubungkan user kepada situs anda. Title tag pada tampilan mesin pencari akan menarik user untuk mengklik website anda. Saat user melakukan kunjungan ke website anda, itulah yang disebut dengan visit. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Blog End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

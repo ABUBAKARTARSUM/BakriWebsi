@@ -14,20 +14,39 @@
   </head>
   <body class="bg-light">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top navbar-light bg-light shadow-sm">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
         <div class="container">
-          <a class="navbar-brand fw-bold text-danger" style="text-transform: uppercase;" href="#">BakriWeb</a>
-          <div class="dropdown">
-            <button class="btn btn-danger" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-               <i class="bi bi-list"></i>
-            </button>
-            <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#home">Home</a></li>
-              <li><a class="dropdown-item" href="#about">About</a></li>
-              <li><a class="dropdown-item" href="#service">Service</a></li>
-              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          <a class="navbar-brand text-uppercase text-danger fw-bold" href="#">bakriweb</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link linkBar" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linkBar" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linkBar" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linkBar" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linkBar" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Belajar Web
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="belajarHtml.html">HTML</a></li>
+                  <li><a class="dropdown-item" href="belajarCSS.html">CSS</a></li>
+                  <li><a class="dropdown-item" href="belajarJS.html">JavaScript</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -36,14 +55,14 @@
     <!-- Home Section Start -->
    <section class="jumbotron" id="home">
      <div class="container">
-       <div class="row justify-content-center align-items-center align-content-center">
+       <div class="row   justify-content-center align-items-center">
          <div class="col-md-6">
            <img src="image/home img.png" alt="home img" class="img-fluid rounded mx-auto d-block mw-100">
          </div>
-         <div class="col-md-6 order-md-first ">
+         <div class="col-md-6 ">
            <p class="text-capitalize">hello i'm</p>
            <h2 class="text-danger fw-bold">web designer & developer</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora odit consectetur et ipsam.</p>
+           <p>Website yang memberikan kemudahan untuk belajar bahasa pemroraman dan jasa pembuatan website</p>
          </div>
        </div>
      </div>
@@ -144,7 +163,7 @@
           <div class="col-md-12">
             <div class="service-item bg-white p-4 mb-4 shadow" style="border-radius: 8px;">
               <img src="image/images.png" alt="images" class="img-fluid rounded-circle rounded mx-auto d-block" width="100px" height="100px">
-              <p class="text-center text-uppercase">design graphic canva</p>
+              <p class="text-center text-uppercase">design logo</p>
             </div>
           </div>
         </div>
@@ -166,42 +185,83 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <img src="image/landing-page.jpeg" alt="landing-page" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">landing page</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/landing-page.jpeg" class="card-img-top img-fluid  gallery-item " alt="landing-page">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">Vanilla CSS</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <img src="image/note-app.jpeg" alt="note-app" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">note app</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/note-app.jpeg" class="card-img-top img-fluid gallery-item " alt="note-app">
+              <div class="card-body">
+                <h5 class="card-title">Note App</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">Vanilla CSS</p>
+                <p class="card-text">Vanilla JavaScript</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <img src="image/survey.jpeg" alt="survey form" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">survey form</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/survey.jpeg" class="card-img-top img-fluid gallery-item " alt="survey">
+              <div class="card-body">
+                <h5 class="card-title">Survey Form</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">Bootstrap</p>
+                <p class="card-text">CSS</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <img src="image/twice.jpeg" alt="twice" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">twice tribute page</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
-          </div>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/twice.jpeg" class="card-img-top img-fluid  gallery-item " alt="twice">
+              <div class="card-body">
+                <h5 class="card-title">Twice Tribute Page</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">Vanilla CSS</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+           </div>
+         </div>
           <div class="col-md-4">
-            <img src="image/coffee-website.png" alt="coffee-website" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">Coffee Website</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
-          </div>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/coffee-website.png" class="card-img-top img-fluid  gallery-item " alt="coffee-website">
+              <div class="card-body">
+                <h5 class="card-title">Coffee Website</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">CSS</p>
+                <p class="card-text">JavaScript</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+           </div>
+         </div>
           <div class="col-md-4">
-            <img src="image/lightbox-gallery.png" alt="coffee-website" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">Lightbox Gallery</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
-          </div>
-          <div class="col-md-4">
-            <img src="image/glassmorpshim-website.png" alt="coffee-website" class="img-fluid img-thumbnail gallery-item" width="400px" height="400px">
-            <p class="text-capitalize mb-1 mt-2 ms-2">Glassmorpshim Portfolio Website</p>
-            <button type="button" class="btn btn-danger text-capitalize mt-2 mb-3 tombol">View Online</button>
+            <div class="card mb-3 bg-white shadow">
+              <img src="image/glassmorpshim-website.png" class="card-img-top img-fluid  gallery-item " alt="glassmorpshim-website">
+              <div class="card-body">
+                <h5 class="card-title">Glassmorpshim Portfolio Website</h5>
+                <p class="card-text">Teknologi :</p>
+                <p class="card-text">HTML</p>
+                <p class="card-text">Vanilla CSS</p>
+                <p class="card-text">Vanilla JavaScript</p>
+                <a href="#" class="btn btn-danger">View Online</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+     </div>
     </section>
     <!-- Portfolio Section End -->
     <!-- Section Information For Freelance  Start-->
@@ -213,7 +273,7 @@
             <h1 class="text-capitalize text-center text-white">i'm avaible for freelance project</h1>
           </div>
         </div>
-        <div class="row justify-content-center text-center">
+        <div class="row    cctify-content-center text-center">
           <div class="col">
             <button type="button" class="btn btn-danger px-3 border"><a href="https://wa.me/628111032598">Hire Me <i class="bi bi-whatsapp text-white"></i></a></button>
           </div>
@@ -310,6 +370,16 @@
     <!--Modal End -->
     <!-- CDN Link To Script JavaScript Bootstrap Version 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- SweetAlert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $('.navbar-nav').on('click', '.linkBar', function() {
+        $('.navbar-nav .linkBar.active').removeClass('active');
+        $(this).addClass('active');
+      })
+    </script>
     <!-- Link To My JavScript File -->
     <script src="script.js"></script>
   </body>
