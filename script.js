@@ -27,7 +27,13 @@ form.addEventListener('submit', (e) => {
       btnLoading.classList.toggle('d-none');
       btnKirim.classList.toggle('d-none');
       // tampilkan alert
-      myAlert.classList.toggle('d-none');
+      // myAlert.classList.toggle('d-none');
+      swal({
+        title: "Successfully!",
+        text: "your message has been recorded",
+        icon: "success",
+        button: "Aww yiss!",
+      });
       // reset formnya
       form.reset();
       console.log('Success!', response);
